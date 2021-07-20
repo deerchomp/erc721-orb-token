@@ -13,7 +13,6 @@ build
 .env.production.local
 .secret
 .infura
-truffle-config.js
 
 npm-debug.log*
 yarn-debug.log*

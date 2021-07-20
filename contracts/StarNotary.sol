@@ -14,8 +14,8 @@ contract StarNotary is ERC721 {
     // Implement Task 1 Add a name and symbol properties
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
-    string public name = "Celestial Orb";
-    string public symbol = "ORB";
+    string public constant name = "Celestial Orb";
+    string public constant symbol = "ORB";
     
 
     // mapping the Star with the Owner Address
