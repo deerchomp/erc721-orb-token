@@ -14,11 +14,11 @@ the Rinkeby network can mint ORB tokens to their wallet to commemerate their dis
 1. Clone repository and `npm install`
 2. [Get Rinkeby testnet funds](http://rinkeby-faucet.com/)
 3. Compile and migrate the smart contracts: `truffle compile` and `truffle migrate --network rinkeby`
-4. Serve the local webpage `npm run dev`
+4. Serve the local webpage `cd app/` and  `npm run dev`
 
 ## How to mint your ORB token
 <img src="./app/docs/1.png" width=250/><br>
-Enter a name for the celestial object and select a unique identifier number an ORB token. The identifier number of the token must be completely unique in order
+Enter a name for the celestial object and select an identity number. The identifier number of the ORB token must be completely unique in order
 to successfully process.<br>
 
 After clicking submit, Metamask will prompt to confirm the transaction.
